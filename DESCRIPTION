@@ -1,0 +1,10 @@
+Package: modules
+Title: Modules
+Version: 0.0.0.9000
+Authors@R: person("Daniel", "Falbel", email = "dfalbel@gmail.com", role = c("aut", "cre"))
+Description: My Shiny Apps modules
+Depends:
+    R (>= 3.1.2)
+License: MIT
+LazyData: true
+RoxygenNote: 5.0.1

@@ -14,4 +14,7 @@ datapreview(input, output, session, data, n = reactive(100))
 \description{
 Data Preview Server
 }
+\seealso{
+\code{\link{datapreviewUI}}
+}
 

@@ -7,6 +7,8 @@
 #' @param title Title of the box (Default: "Preview")
 #' @param width Wdth of the shinydashboard box. (Default: 12)
 #'
+#' @seealso \code{\link{datapreview}}
+#'
 #' @export
 datapreviewUI <- function(id, title = "Preview", width = 12) {
   ns <- NS(id)
@@ -24,6 +26,8 @@ datapreviewUI <- function(id, title = "Preview", width = 12) {
 #' 
 #' @param data data.frame that you want to preview
 #' @param n number of observations to show. (Default: 100)
+#'
+#' @seealso \code{\link{datapreviewUI}}
 #'
 #' @export
 datapreview <- function(input, output, session, data, n = reactive(100)) {

@@ -16,4 +16,7 @@ datapreviewUI(id, title = "Preview", width = 12)
 \description{
 Data Preview UI
 }
+\seealso{
+\code{\link{datapreview}}
+}
 

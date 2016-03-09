@@ -2,3 +2,5 @@
 
 export(datapreview)
 export(datapreviewUI)
+export(dynamicselect)
+export(dynamicselectUI)
